@@ -1,0 +1,462 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "titlePreset": "Landing Page",
+      "nameSelectPreset": "landing",
+      "additionalSetColors": [
+        "#0aa9d9"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "name": "royalerecruiter",
+    "versionFirst": "4.10.8",
+    "siteFonts": [],
+    "uniqCompNum": 7,
+    "versionPublish": "4.10.8",
+    "screenshot": "screenshot.png",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "",
+    "siteUrl": "",
+    "sitemapSwitcherAuto": "on",
+    "favicon": "",
+    "noImageResize": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-size": "25px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"assets/files/ABOUT%20US.pdf\">ABOUT US</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">OUR SERVICE</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#content5-2\">SPECIALIZED SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box4-c\">JOBSEEKERS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mailto:royalerecruiters@gmail.com\" aria-expanded=\"false\">BLOG(coming soon)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#top\">EMPLOYERS</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">RECRUITMENT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"assets/files/AUSTRALIA%20PRE%20APPLICATION%20FORM.pdf\">Jobs in Australia</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"assets/files/Application%20Form.pdf\">Jobs in Canada&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"assets/files/USA%20PRE%20APPLICATION%20FORM.pdf\">Jobs in United States Of America</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"mailto:royalerecruitment@vivaldi.net\">CONTACT US</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/emploment-logo-128x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"text-info\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ROYALE RECRUITER</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-0"
+        },
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/passengers-on-plane-720x480.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.7"
+          },
+          "title": "<b><br><br>WE ARE WORLDWIDE RECRUITER<br>&nbsp; GET JOB OFFER WITHIN MINUTES&nbsp;<br>WE ARE PASSIONATE<br>WE ARE TECHNOLOGY DRIVEN&nbsp;</b><br>",
+          "text": "Looking For Premium Recruitment Services?",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"mailto:royalerecruiters@gmail.com\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> ",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-a",
+          "_styles": {
+            "H1": {
+              "color": "#0aa9d9",
+              "font-size": "30px"
+            },
+            "P": {
+              "font-size": "22px"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": "25",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/d2sfdxdoondmxhf7u6xb2i54ti-2-360x384.jpeg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/wh-we-aredd-1400x1050.jpeg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "WHO WE ARE&nbsp;",
+          "text": "<p>We are practical and consultative in our approach to talents in Asia for our clients worldwide. Our team is BIG on simplifying complex recruitment processes utilizing technology. We have gained a trusted reputation for world-class customer service. Why NOT us!</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"mailto:royalerecruitment@vivaldi.net\" data-toolbar=\"-mbrBtnMove\">More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-d",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#5bc0de"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/what-wed-657x657.jpeg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "WHAT WE DO!",
+          "caption": "We are a talent business. We help clients across the continent access the right talent, at the right time and in the right way, whether that is at board level, an executive appointment, a permanent hire, a contract, outsourced, interim, offshore, onshore – whatever helps our clients to achieve their goals. RoyaleRecruiter &nbsp;is a global people-centric company with a zeal for finding the right FIT talent for our clients locally and around the world.<span style=\"font-size: 1.25rem;\">We are mission driven to connect Asia’s workforce with global distributed and remote agile teams. Our ultimate goal is to insure our resources and experience drive profitable growth and success – for our temporary employees, our dedicated staff, our partner clients and the investors we serve .\n</span><div><span style=\"font-size: 1.25rem;\">\n</span></div><div><span style=\"font-size: 1.25rem;\"><br></span></div>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-2",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "46px",
+              "text-align": "left",
+              "color": "#5bc0de"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "imageSize": "25",
+            "paddingTop": "2",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/who-we-are-720x477.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "OUR EXPERTISE AND SERVICE",
+          "text": "Contigent Search For Job Seekers&nbsp;<br>Contract/Interim &nbsp;Services<br>Staffing Services<br>Recruitment Compliance<br>Candidate Assessement<br>Visa Services &nbsp;",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"mailto:royalerecruiters@gmail.com\" data-toolbar=\"-mbrBtnMove\">More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-c",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "30px",
+              "color": "#5bc0de"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#5bc0de"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButton": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/sean-pollock-phyq704ffda-unsplash-2000x1333.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#FFF8E0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.9"
+          },
+          "title": "HISTORY",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>&nbsp;Royale Recruiter started in 2009, in a office in Springville, Utah, United States Of America with only six dedicated employee. In 2013, we moved to our current office in Sounth Gundurimba, New South Wales, Australia  after a group of investors seeing our potential and relentless doggedness assisted with the initial seed capital.\n</p><p>\n<span style=\"font-size: 1.25rem;\">Shortly thereafter, we served our first global client and more. We have been delighting customers ever since, with our growing team of dedicated Talent and Staff Management Mafias, who are relentless in combined passion and service for people.&nbsp;</span></p><p>\n<span style=\"font-size: 1.25rem;\">We currently recruit and engage a distributed workforce in Asia, U.S, U.K and Australia.&nbsp;</span></p><p>\n<span style=\"font-size: 1.25rem;\">In 2014, we registered Royale Recruiter LLC in Ontario, Canada and plan on further expansion in the Asian continent by 2020.&nbsp;</span></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"mailto:royalerecruitment@vivaldi.net\" data-toolbar=\"-mbrBtnMove\">SEND YOUR RESUME TODAY</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-4"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showName": true,
+            "showBio": true,
+            "count": 3,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "header": "What Our Fantastic Users Say",
+          "items": [
+            {
+              "authorName": "&nbsp;ADAM\r",
+              "authorBio": "Tech Company.",
+              "text": "<i>I'm really satisfied with the experience you guys provide, I'm also happy with the quality of your developers. What's most important for me is to be as hands off as possible (which you provide) and have you as a partner in business negotiations with the employees (which you also do). Really not sure what you could improve, as this is the first time I work with similar company :)</i>"
+            },
+            {
+              "authorName": "SUFFIAN A.",
+              "authorBio": "Employer",
+              "text": "<i>Royal Recruiter has been our recruitment vendor from January 2012 till date and they have delivered on all our agreed services. Most importantly, their approach has been very professional and they paid attention to detail on all our request.</i>"
+            },
+            {
+              "authorName": "JHOLLMAN C.",
+              "authorBio": "Visa Applicant",
+              "text": "<i>Me and my Family, we have been very satisfied with the service you have provided. Any time we have had any concerns you and your team have very efficiently taken on feed back and have been very proactive in resolving any issues we have had. You commitment to putting your clients first is highly appreciated.</i>"
+            }
+          ],
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-5",
+          "testimonial": [
+            {
+              "authorName": "&nbsp;ADAM\r",
+              "authorBio": "Tech Company.",
+              "text": "<i>I'm really satisfied with the experience you guys provide, I'm also happy with the quality of your developers. What's most important for me is to be as hands off as possible (which you provide) and have you as a partner in business negotiations with the employees (which you also do). Really not sure what you could improve, as this is the first time I work with similar company :)</i>"
+            },
+            {
+              "authorName": "SUFFIAN A.",
+              "authorBio": "Employer",
+              "text": "<i>Royal Recruiter has been our recruitment vendor from January 2012 till date and they have delivered on all our agreed services. Most importantly, their approach has been very professional and they paid attention to detail on all our request.</i>"
+            },
+            {
+              "authorName": "JHOLLMAN C.",
+              "authorBio": "Visa Applicant",
+              "text": "<i>Me and my Family, we have been very satisfied with the service you have provided. Any time we have had any concerns you and your team have very efficiently taken on feed back and have been very proactive in resolving any issues we have had. You commitment to putting your clients first is highly appreciated.</i>"
+            }
+          ]
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#e3f5fa",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "Follow Us",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"http://facebook.com/thomas.hendrick.393\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>    ",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-e"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/emploment-logo-225x225.png",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Addres<br></strong>230 W 200 S Lbby<br>Salt Lake City<br>UT 84101, United States<br>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: royalerecruiter@gmail.com<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; royalerecruitment@vivaldi.net<br>\nPhone: +15858661763 &nbsp;<br>\nFax: +1 (7) 208 2583",
+          "text3": "<ul></ul>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-6",
+          "_styles": {
+            "P": {
+              "text-align": "left",
+              "color": "#5bc0de"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
